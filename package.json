@@ -1,0 +1,24 @@
+{
+  "name": "template-learn-layer0-guide",
+  "devDependencies": {
+    "@layer0/cli": "^4.10.0",
+    "@layer0/core": "^4.10.0",
+    "@layer0/devtools": "^4.10.0",
+    "@layer0/prefetch": "^4.10.0",
+    "@layer0/starter": "^4.10.3",
+    "@types/cheerio": "^0.22.30",
+    "@types/node": "^13.13.2",
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^2.6.6",
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "0 dev",
+    "build": "0 build",
+    "prod": "0 run --production",
+    "deploy": "0 deploy -t=demos",
+    "format": "prettier --write '*/*' --ignore-unknown"
+  },
+  "dependencies": {}
+}
